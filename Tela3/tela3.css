@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbfbfb;
+ }
+ .box {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+  }
+
+fieldset{
+ border: 1px solid; color: #e45e5e;
+}
+legend{
+ border: 1px solid; color: #e69c9d;
+ padding: 10px;
+ text-align: center;
+ background-color:#e45e5e;
+ border-radius: 15px;
+ color:rgb(231, 226, 226) ;
+}
+.box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+
+}
+.area-box{
+ display: flex;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+}
+
+.box{
+ background-color:#9ea1a565 ;
+ width: 450px;
+ height: 600px;
+ border-radius: 10px ;
+
+}
+
+.inputBox{
+ position: relative;
+
+}
+.inputUser{
+margin-top: 10px;
+background-color: #fafafa
+
+;
+padding-left: 10px;
+color: #e69c9d;
+border: none;
+height: 20px;
+outline: none;
+border-radius: 8px;
+}
+
+form [type="submit"]{
+display: block;
+background-color: #e45e5e;
+width: 100%;
+font-size: 15px;
+text-transform: uppercase; /*capslock*/
+font-weight: bold; /*deixar negrito*/
+cursor: pointer;
+color: #e69c9d;
+border: none;
+border-radius: 15px;
+
+
+}
